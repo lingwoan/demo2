@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>STEAM</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bxl-steam icon"> </i>
+        <div class="logo_name">STEAM</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <i class="bx bx-search"></i>
+          <input id="search-query" type="text" placeholder="Search..." />
+          <span class="tooltip">Search</span>
+        </li>
+        <!-- <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">HOME</span>
+          </a>
+          <span class="tooltip">HOME</span>
+        </li> -->
+        <div id="bests-btn" class="btn">
+          <ul id="ul-bests-list">
+            <div id="bestlist">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-ranking-star"></i>
+                  <span class="links_name">BEST</span>
+                </a>
+                <span class="tooltip">BEST</span>
+              </li>
+            </div>
+          </ul>
+        </div>
+
+        <div id="topics-list">
+          <ul id="ul-topics-list">
+            <div id="actions-btn" class="btn">
+              <li>
+                <a href="#">
+                  <i class="bx bxs-analyse"></i>
+                  <span class="links_name">Action</span>
+                </a>
+                <span class="tooltip">Action</span>
+              </li>
+            </div>
+
+            <div id="casuals-btn" class="btn">
+              <li>
+                <a href="#">
+                  <i class="bx bxs-invader"></i>
+                  <span class="links_name">Casual</span>
+                </a>
+                <span class="tooltip">Casual</span>
+              </li>
+            </div>
+
+            <div id="fps-btn" class="btn">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-gun"></i>
+                  <span class="links_name">FPS</span>
+                </a>
+                <span class="tooltip">FPS</span>
+              </li>
+            </div>
+
+            <div id="mmos-btn" class="btn">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-users"></i>
+                  <span class="links_name">MMO</span>
+                </a>
+                <span class="tooltip">MMO</span>
+              </li>
+            </div>
+
+            <div id="rpgs-btn" class="btn">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-gamepad"></i>
+                  <span class="links_name">RPG</span>
+                </a>
+                <span class="tooltip">RPG</span>
+              </li>
+            </div>
+
+            <div id="rts-btn" class="btn">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-chess-knight"></i>
+                  <span class="links_name">RTS</span>
+                </a>
+                <span class="tooltip">RTS</span>
+              </li>
+            </div>
+
+            <div id="sports-btn" class="btn">
+              <li>
+                <a href="#">
+                  <i class="bx bxs-tennis-ball"></i>
+                  <span class="links_name">Sport</span>
+                </a>
+                <span class="tooltip">Sport</span>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="text">DANH SÁCH TRÒ CHƠI</div>
+      <div class="game-list" id="ul-games-list">
+        <div class="game">
+          <img
+            src="https://www.gamosaurus.com/wp-content/uploads/calendrier/novembre-2020/vignette-mmorpg-jeux-confinement.jpg"
+            alt="Game 1"
+          />
+          <h3>Game 1</h3>
+        </div>
+        <div class="game">
+          <img
+            src="https://cms.dailysocial.id/wp-content/uploads/2021/07/1391688bf1d5a3c9493c257493261c5a_game-crossplay-pc-mobile.jpg"
+            alt="Game 2"
+          />
+          <h3>Game 2</h3>
+        </div>
+        <div class="game">
+          <img
+            src="https://gamefever.co.id/wp-content/uploads/2020/07/WEB_JULY-960x540.jpg"
+            alt="Game 3"
+          />
+          <h3>Game 3</h3>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
